@@ -41,6 +41,7 @@ a {
     box-shadow: 0 1px 0 #3a3a3a;
     z-index: 99;
     width: 100%;
+    letter-spacing: 1px;
 }
 
 
@@ -76,6 +77,10 @@ a {
     letter-spacing: 2px;
     font-weight: 600;
     text-decoration: none;
+}
+
+#nav-bar-list i {
+    padding-left: 5px;
 }
 
 
@@ -138,4 +143,9 @@ footer {
     #header-content {
         width: 100%;
     }
+
+    #nav-bar-list i {
+        display: none;
+    }
+
 }
