@@ -127,6 +127,16 @@ main {
     position: relative;
 }
 
+#hero-text-home {
+    background-color: rgba(225, 223, 0, 0.7);
+    border-radius: 5px;
+    font-size: 130%;
+    position: relative;
+    width: 60%;
+    left: 10px;
+    margin-top: -500px;
+}
+
 
 /*footer*/
 footer {
