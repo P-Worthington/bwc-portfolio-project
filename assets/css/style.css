@@ -188,3 +188,31 @@ footer {
     }
 
 }
+
+@media screen and (min-width: 900px) {
+    #hero-photo-home {
+        height: 400px
+    }
+
+    #hero-photo-signup {
+        height: 400px
+    }
+
+    #hero-photo-whatwedo {
+        height: 400px
+    }
+
+    #hero-photo-whoweare {
+        height: 400px
+    }
+
+    #hero-text-home {
+        margin-top: -400px;
+        width: 30%;
+    }
+
+    #hero-text-home-box2 {
+        margin-top: 50px;
+        width: 50%;
+    }
+}
