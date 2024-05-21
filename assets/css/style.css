@@ -212,7 +212,8 @@ footer {
     }
 
     #hero-text-home-box2 {
-        margin-top: 50px;
+        margin-top: -50px;
         width: 50%;
+        
     }
 }
