@@ -18,6 +18,8 @@ a {
     color: #282828
 }
 
+
+
 /*header*/
 
 #header-content {
@@ -186,6 +188,14 @@ main {
 
 h2 > i {
     padding-left: 5px;
+}
+
+#content-area div hr {
+    color: #282828;
+}
+
+#signup-bodylink {
+    text-decoration: underline;
 }
 
 /*footer*/
