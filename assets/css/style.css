@@ -145,6 +145,7 @@ main {
     padding-left: 10px;
 }
 
+
 #hero-text-home-box2 {
     background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
@@ -165,6 +166,10 @@ main {
     margin-top: 300px;
 
 
+}
+
+#content-area h2 {
+    letter-spacing: 2px;
 }
 
 
