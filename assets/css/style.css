@@ -143,6 +143,7 @@ main {
     margin-left: 10px;
     margin-top: -550px;
     padding-left: 10px;
+    letter-spacing: 2px;
 }
 
 
@@ -158,6 +159,13 @@ main {
     margin-right: 10px;
     padding-right: 10px;
     color: rgb(214, 214, 214);
+    letter-spacing: 2px;
+}
+
+
+
+#font-awesome-hero-box {
+    padding-right: 15px;
 }
 
 #content-area {
@@ -166,6 +174,8 @@ main {
     margin-top: 300px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
 
@@ -174,11 +184,16 @@ main {
 }
 
 
+h2 > i {
+    padding-left: 5px;
+}
+
 /*footer*/
 footer {
     background-color: #58b368;
     position: fixed bottom;
 }
+
 
 #social-media-list {
     text-align: center;
@@ -188,11 +203,12 @@ footer {
     list-style-type: none;
     position: relative;
     padding-top: 0;
-    margin-top: 0;
-    margin-bottom: -10px;
+    margin-top: 10px;
+    margin-bottom: 0;
     letter-spacing: 2px;
     font-weight: 600;
     text-decoration: none;
+
 }
 
 /*media query for the header and small devices*/
