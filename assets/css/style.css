@@ -60,7 +60,7 @@ a {
     height: 30px;
     margin-top: 0px;
     margin-bottom: 100px;
-    background-color: #cde7ca;
+    background-color: #58b368;
     box-shadow: 0 2px 2px #3a3a3a;
     padding-top: 5px;
 }
@@ -99,36 +99,43 @@ main {
     flex: 1 0 auto;
 }
 
+#main-area {
+    display: flex;
+    flex-direction: row;
+    position: static;
+}
+
 #hero-photo-home {
     background: url(../images/bees.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 #hero-photo-signup {
     background: url(../images/pine-marten.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
-    position: relative;
+
 }
 
 #hero-photo-whatwedo {
     background: url(../images/red-squirrel.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
-    position: relative;
+
 }
 
 #hero-photo-whoweare {
     background: url(../images/woodpecker.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
-    position: relative;
+
 }
 
 #hero-text-home {
-    background-color: rgba(225, 223, 0, 0.7);
+    background-color: rgba(225, 223, 0, 0.8);
     border-radius: 5px;
     font-size: 130%;
     position: relative;
@@ -139,22 +146,31 @@ main {
 }
 
 #hero-text-home-box2 {
-    background-color: rgba(254, 77, 77, 0.7);
+    background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
     font-size: 130%;
-    position: relative;
+    margin-top: 200px;
     width: 60%;
     float: right;
     margin-top: 100px;
     text-align: right;
     margin-right: 10px;
     padding-right: 10px;
+    color: rgb(214, 214, 214);
+}
+
+#content-area {
+    background-color: #efeeb4;
+    width: 100%;
+    margin-top: 300px;
+
+
 }
 
 
 /*footer*/
 footer {
-    background-color: #cde7ca;
+    background-color: #58b368;
     position: fixed bottom;
 }
 
@@ -187,6 +203,8 @@ footer {
         display: none;
     }
 
+
+
 }
 
 @media screen and (min-width: 900px) {
@@ -216,4 +234,9 @@ footer {
         width: 50%;
         
     }
+
+    #content-area {
+        margin-top: 100px;
+    }
+
 }
