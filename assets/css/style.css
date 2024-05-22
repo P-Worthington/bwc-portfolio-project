@@ -162,9 +162,10 @@ main {
 
 #content-area {
     background-color: #efeeb4;
-    width: 100%;
+    width: 90%;
     margin-top: 300px;
-
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -242,6 +243,10 @@ footer {
 
     #content-area {
         margin-top: 100px;
+        width:80%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
+
 
 }
