@@ -18,6 +18,9 @@ a {
     color: #282828
 }
 
+p {
+    font-size: larger;
+}
 
 
 /*header*/
@@ -198,8 +201,40 @@ h2 > i {
     text-decoration: underline;
 }
 
+#the-scottish-wildcat {
+    display: flex;
+    flex-direction: column;
+}
 
+#body-image-wildcat {
+    background: url(../images/body-image-wildcat.jpg) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
 
+#the-beaver {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#body-image-beaver {
+    background: url(../images/body-image-beaver.webp) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
+
+#the-honeybee {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#body-image-honeybee {
+    background: url(../images/body-image-honeybee.jpg) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
 
 /*footer*/
 footer {
