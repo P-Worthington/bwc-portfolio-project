@@ -246,6 +246,17 @@ h2 > i {
     width: 100%;
 }
 
+#newsletter-image {
+    background: url(../images/newsletter-image.webp) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
+
+#conservation-image {
+    background: url(../images/conservation-image.jpg) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
 /*footer*/
 footer {
     background-color: #58b368;
