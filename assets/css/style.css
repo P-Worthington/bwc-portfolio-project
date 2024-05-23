@@ -266,6 +266,20 @@ h2 > i {
     width: 100%;
 }
 
+.signup {
+    margin-bottom: 10px;
+}
+
+#signup-form {
+    text-align: center;
+    font-size: large;
+}
+
+#register-button {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
 /*footer*/
 footer {
     background-color: #58b368;
@@ -396,6 +410,34 @@ footer {
     }
 
     #charity-body-image {
+        min-width: 400px;
+        min-height: 400px;
+    }
+
+    #the-conservation {
+        display:flex;
+        flex-direction: row;
+    }
+
+    #conservation-text {
+        padding-right: 10%;
+    }
+
+    #conservation-image {
+        min-width: 400px;
+        min-height: 400px;
+    }
+
+    #the-knowledge {
+        display:flex;
+        flex-direction:row-reverse
+    }
+
+    #knowledge-text {
+        padding-left: 10%;
+    }
+
+    #newsletter-image {
         min-width: 400px;
         min-height: 400px;
     }
