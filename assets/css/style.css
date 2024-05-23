@@ -275,13 +275,14 @@ h2 > i {
     font-size: large;
 }
 
-#signup-area {
-    background-color: orange;
-}
 
 #register-button {
     font-size: large;
     margin-bottom: 10px;
+}
+
+#donation-amount {
+    font-size: x-large;
 }
 
 /*footer*/
