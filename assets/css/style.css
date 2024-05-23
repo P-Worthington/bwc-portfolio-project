@@ -273,6 +273,8 @@ h2 > i {
 #signup-form {
     text-align: center;
     font-size: large;
+    max-height: 30%;
+
 }
 
 #register-button {
