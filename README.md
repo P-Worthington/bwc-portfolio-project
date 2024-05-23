@@ -1,4 +1,24 @@
+# BWC - British Wildlife Conservation
+
+This website has been created in order to promote a fictional British charity the British Wildlife Conservation or BWC. The BWC relies on donations form supporters and to reward patrons they release a weekly newsletter which includes details about wildlife conservation. 
+
+The site is made up of 4 pages; The landing page, Meet The Team, Our Goals and Sign up. Each page being semantically linked using the same header and title area but containing different images and content. 
+
+
+## Features
+
+### Header
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+## Header
 
 Welcome P-Worthington ,
 
