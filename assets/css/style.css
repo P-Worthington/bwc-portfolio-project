@@ -259,6 +259,13 @@ h2 > i {
     height: 400px;
     width: 100%;
 }
+
+#charity-body-image {
+    background: url(../images/charity-body-image.jpg) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
+
 /*footer*/
 footer {
     background-color: #58b368;
@@ -361,8 +368,36 @@ footer {
 
     #body-image-beaver {
         min-width: 400px;
+        min-height: 400px;
         
     }
 
+    #the-team {
+        display:flex;
+        flex-direction: row;
+    }
+
+    #the-team-text {
+        padding-right: 10%;
+    }
+
+    #team-photo {
+        min-width: 400px;
+        min-height: 400px;
+    }
+
+    #the-charity {
+        display:flex;
+        flex-direction:row-reverse
+    }
+
+    #the-charity-text {
+        padding-left: 10%;
+    }
+
+    #charity-body-image {
+        min-width: 400px;
+        min-height: 400px;
+    }
 
 }
