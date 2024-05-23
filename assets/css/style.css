@@ -140,7 +140,7 @@ main {
 }
 
 #hero-text-home {
-    background-color: rgba(225, 223, 0, 0.8);
+    background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
     font-size: 130%;
     position: relative;
@@ -149,6 +149,8 @@ main {
     margin-top: -550px;
     padding-left: 10px;
     letter-spacing: 2px;
+    padding-bottom: 5px;
+    color: rgb(214, 214, 214);
 }
 
 
@@ -174,13 +176,13 @@ main {
 }
 
 #content-area {
-    background-color: #efeeb4;
+
     width: 90%;
     margin-top: 300px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 80px;
 
 }
 
@@ -322,7 +324,7 @@ footer {
 
     #hero-text-home-box2 {
         margin-top: -50px;
-        width: 50%;
+        width: 30%;
         
     }
 
@@ -331,6 +333,35 @@ footer {
         width:80%;
         padding-left: 10%;
         padding-right: 10%;
+        padding-top: 120px;
+    }
+
+    #the-scottish-wildcat, #the-honeybee {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #wildcat-text, #honeybee-text {
+        padding-right: 10%;
+    }
+
+    #body-image-wildcat, #body-image-honeybee {
+        min-width: 400px;
+        min-height: 400px;
+    }    
+
+    #the-beaver {
+        display:flex;
+        flex-direction:row-reverse
+    }
+
+    #beaver-text {
+        padding-left: 10%;
+    }
+
+    #body-image-beaver {
+        min-width: 400px;
+        
     }
 
 
