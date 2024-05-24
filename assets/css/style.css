@@ -312,22 +312,20 @@ h2 > i {
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgb(225, 0, 0);
-
     box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.6);
-
     margin-left: 35%;
     width: 30%;
     margin-bottom: 50px;
     margin-top: 40px;
-  }
+}
   
 .button-signup:hover {
     background-color: rgba(163, 0, 0, 1);
-  }
+}
   
 .button-signup:active {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  }
+}
 
 #signup-link {
     text-decoration: none;
