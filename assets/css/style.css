@@ -273,6 +273,7 @@ h2 > i {
     background: url(../images/conservation-image.jpg) no-repeat center center/cover;
     height: 400px;
     width: 100%;
+    margin-top: 30px;
 }
 
 #charity-body-image {
