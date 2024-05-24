@@ -32,7 +32,15 @@ Below the hero image there is the content area of the website. The content is se
 Within the footer area of the document there are 4 links to social media platforms arranged in a list and separated to spread the width of the screen. Each of the social media links also contains the equivalent Font Awesome icon. 
 
 
+## Pages
 
+### Home
+The home page is the landing page of the of the site and is named index.html. It contains the familiar hero image and two text boxes. Below there are three paragraphs: Who We Are, What We Do and Species. Beneath the content of the page there is a sign up button and a footer with social media links. 
+
+### Meet The Team
+A page with similar styling to the landing page but with an alternative image of wildlife. On this page there is content relating to the mission statment of the BWC, a paragraph relating to the team and some detail of the charity and its formation. 
+
+### Our Goals 
 
 
 
