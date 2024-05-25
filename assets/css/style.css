@@ -301,12 +301,12 @@ h2 > i {
     font-size: x-large;
 }
 
-/*placeholder CSS for now*/
+
 .button-signup {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
-    font-size: 1rem;
+    font-size: x-large;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
@@ -508,6 +508,12 @@ footer {
         width: 30%;
         margin-left: 35%;
         margin-right: 35%;
+    }
+
+    .button-signup {
+        font-size: x-large;
+        margin-left: 40%;
+        width: 20%;
     }
 
 }
