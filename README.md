@@ -8,16 +8,21 @@ Usability of the BWC site on different screen sizes was at the forefront of the 
 
 As well as display on different screen types - *aria labels ect*
 
+![alt text](am-i-responsive-readme.jpg)
 
 ## Features
 
 ### Header
 The header area of the BWC site was created by using an image of a forest and decreasing the opacity in order to blend it into the site and not clash with the header text. The Header text displays 'BWC' on small screen and 'BWC - British Wildlife Conservation' on larger screen sizes. 
 
+![alt text](header-readme.jpg)
+
 ### Navigation
 Directly beneath the header there is the navigation bar. The navigation bar includes the 4 headings of: Home, Meet The Team, Our Goals, Sign Up. The order of these remains consistent on all of the pages of the site. I chose the top of the document to contain the navigation links as this is what users expect to see from all websites. 
 
 Similarly to the Header the navigation bar features dynamic changes depending on the size of the screen. On larger devices a Font Awesome icon is positioned to the right of the heading. The Font Awesome icons are used to be semantically similar to the header it's self and also convey the idea of nature and conservation. 
+
+![alt text](nav-bar-readme.jpg)
 
 ### Hero Image 
 On each of the 4 pages of this site there is a hero Image designed to take up the full width of the page and a height determined by the width of the users device either 600px or 400px. Each of the pages feature a different image of British wildlife including honeybees (on the home screen), a woodpecker, a red squirrel and a pine marten. 
