@@ -28,6 +28,9 @@ Within the hero image there are two boxes positioned close to the upper-right an
 ### Content Area
 Below the hero image there is the content area of the website. The content is separated by headings and horizontal line elements to assist the user. Within several of the sub-headings there ar photographs these are positioned below the text on small devices and to the side on larger screen sizes, alternating between left and right. 
 
+### Sign Up Button
+At the bottom of each of the pages is a large red button that stands out significantly from the rest of the page with the text 'Sign Up' within in. Pressing this button will lead the user to the Sign Up page. 
+
 ### Footer
 Within the footer area of the document there are 4 links to social media platforms arranged in a list and separated to spread the width of the screen. Each of the social media links also contains the equivalent Font Awesome icon. 
 
@@ -41,6 +44,11 @@ The home page is the landing page of the of the site and is named index.html. It
 A page with similar styling to the landing page but with an alternative image of wildlife. On this page there is content relating to the mission statment of the BWC, a paragraph relating to the team and some detail of the charity and its formation. 
 
 ### Our Goals 
+The Our Goals page again contains the same semantic elements and positioning of content ut a different photo of nature. Within the content there is detail on the conservation action taken by the BWC and how the BWC uses its newsletter to teach others about conservation. 
+
+### Sign Up 
+The signup page contains a large central form and background image. The user can reach this page by pressing the Sign Up button on the navigation bar or the bottom of each page. The boxes used within the hero image were used to create this form. 
+
 
 
 
