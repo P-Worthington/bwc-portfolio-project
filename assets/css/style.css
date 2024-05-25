@@ -305,7 +305,7 @@ h2 > i {
 .button-signup {
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 10px 10px 10px 10px;
     font-size: x-large;
     text-align: center;
     color: #fff;
@@ -313,10 +313,11 @@ h2 > i {
     border-radius: 10px;
     background-color: rgb(225, 0, 0);
     box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.6);
-    margin-left: 35%;
+    margin-left: 42.5%;
     width: 30%;
-    margin-bottom: 50px;
     margin-top: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
 }
   
 .button-signup:hover {
@@ -329,6 +330,10 @@ h2 > i {
 
 #signup-link {
     text-decoration: none;
+}
+
+.hr-bottom {
+    width: 80%;
 }
 
 /*footer*/
@@ -512,7 +517,7 @@ footer {
 
     .button-signup {
         font-size: x-large;
-        margin-left: 40%;
+        margin-left: 47.5%;
         width: 20%;
     }
 
