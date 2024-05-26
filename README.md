@@ -77,4 +77,13 @@ The signup page contains a large central form and background image. The user can
 In the early development stages the BWC site was tested using the << python3 -m http.server >> commands on my own browser to establish if the site was working the way in which I intended. I varied the size of my browser window to simulate using my site on different screen sizes. 
 
 ## Validator Testing
+This project was tested using the W3C CSS tester https://jigsaw.w3.org/css-validator/validator and resulted in no errors. It was ran through the W3C HTML tester https://validator.w3.org/#validate_by_input which resulted in no errors for all pages. At the time of writing (26/05/2024) there are a number of errors within the sign-up.html document when validating by direct input these generally take the form of unclosed and stray tags. I have attempted to rectify these to no avail, and will continue to try prior to submission. 
 
+### Deployment 
+The BWC site was deployed using GitHub using the following steps:
+    On the settings section of the repository locate the pages section with the code and automation branch. 
+    Deploy from main branch with /(root) selected. 
+    Return to repository and select the deployments link at the right of the repository. 
+
+## Bugs
+Following the deployment of the BWC site I noticed that CSS was not targetting the Sign Up button seccessfully. I found the code for the Sign Up button within style.css and noticed several spaces where lines were removed and believed that this may be the cause. After removing these empty spaces and pushing the changes to GitHub the Sign Up button was successfully targetted by the CSS document. 
