@@ -98,19 +98,23 @@ I had originally used background images within the content section of the pages.
 
 ## References 
 
-## Media
+### Media
 Images were found using the following two sites: 
 <ul>    
     <li>https://unsplash.com/s/photos/open-source</li>
     <li>https://www.pexels.com/</li>
 </ul>
 
-## Content 
+### Content 
 Content for the pages was derived from the following:
 <ul>
     <li>https://www.countryfile.com/wildlife/most-endangered-species-in-britain</li>
     <li>https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/scottish-wildcat/</li>
     <li>https://jeffollerton.co.uk/2022/07/13/have-honey-bees-declined-in-britain-an-update-of-the-numbers/</li>
 </ul>
+
+### Code 
+The GitHub template provided by Code Institute including a number of plugins was used as a template for this project. The template was referenced through GitHub and is clearly shown within GitHub. 
+
 
 
