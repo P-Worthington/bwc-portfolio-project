@@ -223,22 +223,10 @@ h2 > i {
     flex-direction: column;
 }
 
-#body-image-wildcat {
-    background: url(../images/body-image-wildcat.jpg) no-repeat center center/cover;
-    height: 400px;
-    width: 100%;
-}
-
 #the-beaver {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-}
-
-#body-image-beaver {
-    background: url(../images/body-image-beaver.webp) no-repeat center center/cover;
-    height: 400px;
-    width: 100%;
 }
 
 #the-honeybee {
@@ -247,37 +235,27 @@ h2 > i {
     padding-top: 30px;
 }
 
-#body-image-honeybee {
-    background: url(../images/body-image-honeybee.jpg) no-repeat center center/cover;
-    height: 400px;
-    width: 100%;
-}
-
 #species > div > h3 {
     margin-bottom: 0;
 }
 
 #team-photo {
-    background: url(../images/the-team\ image.webp) no-repeat center center/cover;
     height: 400px;
     width: 100%;
 }
 
 #newsletter-image {
-    background: url(../images/newsletter-image.webp) no-repeat center center/cover;
     height: 400px;
     width: 100%;
 }
 
 #conservation-image {
-    background: url(../images/conservation-image.jpg) no-repeat center center/cover;
     height: 400px;
     width: 100%;
     margin-top: 30px;
 }
 
 #charity-body-image {
-    background: url(../images/charity-body-image.jpg) no-repeat center center/cover;
     height: 400px;
     width: 100%;
 }
@@ -411,97 +389,28 @@ footer {
         
     }
 
-    #content-area {
-        margin-top: 100px;
-        width:80%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 120px;
-    }
-
-    #the-scottish-wildcat, #the-honeybee {
+    #the-scottish-wildcat, #the-honeybee, #the-team, #the-conservation {
         display: flex;
         flex-direction: row;
+        margin-bottom: 50px;
     }
 
-    #wildcat-text, #honeybee-text {
-        padding-right: 10%;
-    }
-
-    #body-image-wildcat, #body-image-honeybee {
-        min-width: 400px;
-        min-height: 400px;
+    #body-image-wildcat, #body-image-honeybee, #team-photo, #conservation-image {
+        width: 600px;
+        height: 500px;
+        margin-left: 20px;
     }    
 
-    #the-beaver {
-        display:flex;
-        flex-direction:row-reverse
+    #the-beaver, #the-charity, #the-knowledge {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 50px;
     }
 
-    #beaver-text {
-        padding-left: 10%;
-    }
-
-    #body-image-beaver {
-        min-width: 400px;
-        min-height: 400px;
-        
-    }
-
-    #the-team {
-        display:flex;
-        flex-direction: row;
-    }
-
-    #the-team-text {
-        padding-right: 10%;
-    }
-
-    #team-photo {
-        min-width: 400px;
-        min-height: 400px;
-    }
-
-    #the-charity {
-        display:flex;
-        flex-direction:row-reverse
-    }
-
-    #the-charity-text {
-        padding-left: 10%;
-    }
-
-    #charity-body-image {
-        min-width: 400px;
-        min-height: 400px;
-    }
-
-    #the-conservation {
-        display:flex;
-        flex-direction: row;
-    }
-
-    #conservation-text {
-        padding-right: 10%;
-    }
-
-    #conservation-image {
-        min-width: 400px;
-        min-height: 400px;
-    }
-
-    #the-knowledge {
-        display:flex;
-        flex-direction:row-reverse
-    }
-
-    #knowledge-text {
-        padding-left: 10%;
-    }
-
-    #newsletter-image {
-        min-width: 400px;
-        min-height: 400px;
+    #body-image-beaver, #team-photo, #newsletter-image {
+        width: 600px;
+        height: 500px;
+        margin-right: 20px;
     }
 
     #hero-photo-signup {
