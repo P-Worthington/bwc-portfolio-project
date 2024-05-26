@@ -54,23 +54,28 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <div id="hero-photo-signup"></div>
-                
-            <div id="signup-container">
-                <h2><i id ="font-awesome-hero-box" class="fa-solid fa-clipboard-list"></i>Sign Up</h2>
-                <div id="signup-area">
-                    <form id="signup-form" action="https://formdump.codeinstitute.net/" method="post">
-                        <label for="firstname">First name:</label><br>
-                        <input class="signup" type="text" id="firstname" name="firstname" placeholder="John"><br>
-                        <label for="lastname">Last name:</label><br>
-                        <input class="signup" type="text" id="lasname" name="lastname" placeholder="Smith"><br>
-                        <label for="email">Email Address</label><br>
-                        <input class="signup" type="email" id="email" name="email" placeholder="john.smith@email.com"><br>
-                        <input id="register-button" type="submit" value="Register"><br>
-                        <label for="fields-of-study">Donation:</label><br>
-                        <select name="donation-amount" id="donation-amount">
+    <div id="hero-photo-signup">       
+        <div id="signup-container">
+            <h2><i id ="font-awesome-hero-box" class="fa-solid fa-clipboard-list"></i>Sign Up</h2>
+            <div id="signup-area">
+                <form id="signup-form" action="https://formdump.codeinstitute.net/" method="post">
+                    <label for="firstname">First name:</label>
+                    <br>
+                    <input id="firstname" class="signup" type="text" name="firstname" placeholder="John" required>
+                    <br>
+                    <label for="lastname">Last name:</label>
+                    <br>
+                    <input id="lastname" class="signup" type="text" name="lastname" placeholder="Smith" required>
+                    <br>
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input id="email" class="signup" type="email" name="email" placeholder="john.smith@email.com" required>
+                    <br>
+                    <input id="register-button" type="submit" value="Register">
+                    <br>
+                    <label for="donation-amount">Donation:</label>
+                    <br>
+                    <select name="donation-amount" id="donation-amount">
                         <option value="£0">£0</option>
                         <option value="£1">£1</option>
                         <option value="£2">£2</option>
@@ -78,11 +83,12 @@
                         <option value="£10">£10</option>                            
                         <option value="£15">£15</option>
                         <option value="£20">£20</option>
-                    </form>
-                </div>
-            </div>    
-        </section>    
-    </main>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/83eae7a1c8.js" crossorigin="anonymous"></script>
 </body>
