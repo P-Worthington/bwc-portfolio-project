@@ -79,6 +79,9 @@ In the early development stages the BWC site was tested using the << python3 -m 
 ## Validator Testing
 This project was tested using the W3C CSS tester https://jigsaw.w3.org/css-validator/validator and resulted in no errors. It was ran through the W3C HTML tester https://validator.w3.org/#validate_by_input which resulted in no errors for all pages. At the time of writing (26/05/2024) there are a number of errors within the sign-up.html document when validating by direct input these generally take the form of unclosed and stray tags. I have attempted to rectify these to no avail, and will continue to try prior to submission. 
 
+## Accessability Testing
+The Lighthouse feature was used to assess accessibility of the BWC website. This scored accessibility best practices and SCO 
+
 ### Deployment 
 The BWC site was deployed using GitHub using the following steps:
     On the settings section of the repository locate the pages section with the code and automation branch. 
@@ -87,3 +90,4 @@ The BWC site was deployed using GitHub using the following steps:
 
 ## Bugs
 Following the deployment of the BWC site I noticed that CSS was not targetting the Sign Up button seccessfully. I found the code for the Sign Up button within style.css and noticed several spaces where lines were removed and believed that this may be the cause. After removing these empty spaces and pushing the changes to GitHub the Sign Up button was successfully targetted by the CSS document. 
+

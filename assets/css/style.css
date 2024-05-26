@@ -362,6 +362,10 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+    #content-area {
+        margin-top: 150px;
+    }
+    
     #hero-photo-home {
         height: 400px
     }
