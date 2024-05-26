@@ -77,7 +77,7 @@ The signup page contains a large central form and background image. The user can
 In the early development stages the BWC site was tested using the << python3 -m http.server >> commands on my own browser to establish if the site was working the way in which I intended. I varied the size of my browser window to simulate using my site on different screen sizes. 
 
 ### Validator Testing
-This project was tested using the W3C CSS tester https://jigsaw.w3.org/css-validator/validator and resulted in no errors. It was ran through the W3C HTML tester https://validator.w3.org/#validate_by_input which resulted in no errors for all pages. At the time of writing (26/05/2024) there are a number of errors within the sign-up.html document when validating by direct input; these generally take the form of unclosed and stray tags. I have attempted to rectify these to no avail, and will continue to try prior to submission. 
+This project was tested using the W3C CSS tester https://jigsaw.w3.org/css-validator/validator and resulted in no errors. It was ran through the W3C HTML tester https://validator.w3.org/#validate_by_input which resulted in no errors for all pages. 
 
 ### Accessibility Testing
 The Lighthouse feature was used to assess accessibility of the BWC website. This scores accessibility, best practices and SCO. All pages of the BWC website scored green in all the above tests. A further function of Lighthouse is to score the performance of the page. The BWC website scored orange in this test. I believe due to the large image sizes used.  
