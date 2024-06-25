@@ -239,7 +239,7 @@ h2 > i {
     margin-bottom: 0;
 }
 
-#team-photo {
+.team-photo {
     height: 400px;
     width: 100%;
 }
