@@ -25,6 +25,68 @@ p {
 
 /*header*/
 
+header {
+    background-color: #58b368;
+    padding: 0 1rem;;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#header-text, #bwc-list, .fa-solid {
+    color: #282828;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*navbar styles with dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: #58b368;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+
+}
+
+/*nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display:none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    padding-right: 40px;
+}
+
 #header-content {
     height: 70px;
     z-index: 99;
