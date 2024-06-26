@@ -23,10 +23,15 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     </style>
 </head>
+
+<!--Content of index page-->
 <body>
+    <!--Header contains logo, title and the burger icon used for navigation-->
     <header>
 
+        <!--Contains title and logo(font awesome icon) at top of page-->
         <div id="header-content">
+            <!--Title and header - links to index.html-->
             <a href="index.html"><h1 id="header-text"><i class="fa-brands fa-pagelines"></i>BWC</h1></a>
         </div>
         <!--Header long format - only used with larger screen sizes-->
@@ -34,6 +39,7 @@
             <h2>- British Wildlife Conservation</h2>
         </div>
 
+        <!--Navigation drop down box-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
 
@@ -50,25 +56,31 @@
         </nav>
 
     </header>
+    
     <!--Hero photo and hero text area, displays page name / slogan and a unique image of wildlife-->
     <main>
         <div>
             <section>
+                <!--Index html hero image -->
                 <div id="hero-photo-home"></div>
                 
+                <!--Hero box information about the page the user is on-->
                 <div id="hero-text-home">
                     <h2>BWC</h2>
                     <h3>- Taking Care of Britains Most Endangered Animals</h3>
                 </div>
 
+                <!--Provides additional information about the page and the charity-->
                 <div id="hero-text-home-box2">
                     <h2>British Wildlife Conservation</h2>
                 </div>
             </section>
+            
             <!--Main content area with paragraphs and pictures-->
             <section>
                 <div id="content-area">
                     <div>
+                        <!--Provids brief overview of who the BWC are-->
                         <h2 class="content-headings"><a href="who-we-are.html">Who We Are <i class="fa-solid fa-people-group"></i></a></h2>
                         <p>British Wildlife Conservation (BWC) is a British charity established in 2020. The BWC specialises in the conservation of some of the most endangered and important native british species. We are a team of 10 from all over the United Kingdom from the Isle of White to Galloway. We are passionate about nature and hopefully with your help we can raise awareness about the most endangered animals and their habitats.</p>
                         <p>Our mission is to raise awareness about the most endangered and important wildlife found in the UK from the honey bee to the Scottish wildcat. We rely on donations from like-minded people who also want to see habitats protected. </p>
@@ -76,16 +88,18 @@
                     </div>
 
                     <div>
+                        <!--Provides brief overview of what the BWC does-->
                         <h2 class="content-headings"><a href="what-we-do.html">What We Do <i class="fa-solid fa-seedling"></i></a></h2>
                         <p>We at the BWC get involved in many aspects of conservation from petitioning governments to advising local councils. We also release our popular free newsletter once a week containing information about Britain’s most endangered species, habitats at risk and the work we have done. Why not sign up by clicking the link above or below. </p>
                         
                         <hr>
                     </div>
 
+                    <!--Provids the user information about some of the species protected by the BWC-->
                     <div id="species">
                         <h2 class="content-headings">Species<i class="fa-solid fa-paw"></i></h2>
                 
-                        
+                        <!--Photo and description of scottish wildcat-->
                         <div id="the-scottish-wildcat">
                             <div id="wildcat-text">
                                 <h3>The Scottish Wildcat - <i>Felis silvestris</i></h3>
@@ -95,6 +109,7 @@
                         </div>
                         <hr>
 
+                        <!--photo and description about the beaver-->
                         <div id="the-beaver">
                             <div id="beaver-text">  
                                 <h3>The Eurasian Beaver -<i>Castor fiber</i></h3>
@@ -103,6 +118,8 @@
                             <img  src="./assets/images/body-image-beaver.webp" id="body-image-beaver" alt="Image of a Beaver standing by a dam">
                         </div>
                         <hr>
+
+                        <!--photo and description about the honeybee-->
                         <div id="the-honeybee">
                             <div id="honeybee-text">
                                 <h3>The Honey Bee -<i> Apis mellifera</i></h3>
