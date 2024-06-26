@@ -176,7 +176,7 @@ main {
 
 /*The Team hero image displaying woodpecker*/
 #hero-photo-theteam {
-    background: url(../images/woodpecker.jpg) no-repeat center center/cover;
+    background: url(../images/woodpecker.jpg) no-repeat top center/cover;
     height: 600px;
     width: 100%;
     background-attachment: fixed;
