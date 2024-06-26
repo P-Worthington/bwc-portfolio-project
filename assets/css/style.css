@@ -35,6 +35,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-bottom: -10px;
+    padding-top: -10px;
 }
 
 #header-text, #bwc-list, .fa-solid {
@@ -90,7 +92,6 @@ nav {
 #header-content {
     height: 70px;
     z-index: 99;
-    box-shadow: 0 1px 0 #3a3a3a;
     text-decoration: none;
 }
 
@@ -105,7 +106,6 @@ nav {
 
 #bwc-list {
     padding-top: 5px;
-    box-shadow: 0 1px 0 #3a3a3a;
     z-index: 99;
     width: 100%;
     letter-spacing: 1px;
@@ -127,7 +127,7 @@ nav {
     height: 30px;
     margin-top: 0px;
     margin-bottom: 100px;
-    background-color: #58b368;
+    background-color: #6cda80;
     box-shadow: 0 2px 2px #3a3a3a;
     padding-top: 5px;
 }
@@ -403,19 +403,7 @@ footer {
         margin-top: 150px;
     }
     
-    #hero-photo-home {
-        height: 400px
-    }
-
-    #hero-photo-signup {
-        height: 400px
-    }
-
-    #hero-photo-whatwedo {
-        height: 400px
-    }
-
-    #hero-photo-whoweare {
+    #hero-photo-home, #hero-photo-signup, #hero-photo-whatwedo, #hero-photo-whoweare {
         height: 400px
     }
 
