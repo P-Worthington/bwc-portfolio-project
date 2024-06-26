@@ -347,6 +347,7 @@ alters box shadow when active*/
 /*Colour used same as header for continuity*/
 footer {
     background-color: #58b368;
+    margin-top: 20px;
 }
 
 /*Styling for social media links located in footer*/
