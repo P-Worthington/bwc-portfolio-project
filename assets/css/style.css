@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /*general styles for page*/
+
+/*Provides font for whole page and ensures that 
+content takes up full width of page*/
 body {
     font-family: "roboto", sans-serif;
     padding: 0;
@@ -13,23 +16,27 @@ body {
     min-height: 100vh;
 }
 
+/*Removes all text decaration from hyperlinks*/
 a {
     text-decoration: none;
     color: #282828
 }
 
+/*Increases font size of all paragraphs*/
 p {
     font-size: larger;
 }
 
+/*Page Header*/
 
-/*header*/
-
+/*Denotes the size shape and position of the header*/
 header {
     background-color: #58b368;
     padding-left: 1rem;
     margin-top: -10px;
+    /*Fixes position of header at top of page*/
     position: fixed;
+    /*Ensures that header is ontop of all other page items*/
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -38,41 +45,44 @@ header {
     align-items: baseline;
 }
 
+/*Heading text colour used throughout page*/
 #header-text, #bwc-list, .fa-solid {
     color: #282828;
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
+/*The styling for the 4 menu items within the drop down box*/
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
+/*Separates the menu list items*/
 #menu > li {
     margin-bottom: 1em;
 }
 
+/*When drop down box active adds box shadow to separate from
+rest of page content*/
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*navbar styles with dropdown toggle*/
+/*Styling for the navigation bar to create seapration from
+page and header*/
 nav {
     position: absolute;
+    /*Lighter colour chosen to create separation*/
     background-color: #70e686;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
+    /*Hidden until clicked by user*/
     display: none;
     top: 100%;
+    /*Border used to once again create separation*/
     border-top: 2px solid #3a3a3a;
-
 }
 
 /*nav toggle*/
@@ -80,21 +90,26 @@ nav {
     display: block;
 }
 
+/*Removes check box from the label*/
 #nav-toggle {
     display:none;
 }
 
+/*Utilises the burger icon as the checkbox*/
 .nav-toggle-label {
     font-size: 2rem;
     padding-right: 40px;
 }
 
+/*Styling for the div containing the BWC text displayed within the 
+header*/
 #header-content {
     height: 70px;
     z-index: 99;
     text-decoration: none;
 }
 
+/*Styling for the BWC text in the header*/
 #header-text {
     letter-spacing: 4px;
     padding-left: 10px;
@@ -104,6 +119,8 @@ nav {
 
 }
 
+/*The text displayed next to BWC stating the name of the charity 
+hidden on small screen sizes*/
 #bwc-list {
     padding-top: 5px;
     z-index: 99;
@@ -111,62 +128,27 @@ nav {
     letter-spacing: 1px;
 }
 
-
-#nav-bar {
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    margin-top: 0px;
-    margin-bottom: 100px;
-    background-color: #6cda80;
-    box-shadow: 0 2px 2px #3a3a3a;
-    padding-top: 5px;
-}
-
-#nav-bar-list {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    position: relative;
-    padding-top: 0px;
-    margin-top: 5px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-#nav-bar-list i {
-    padding-left: 5px;
-}
-
-
-#header-container {
-    display: flex;
-    max-height: 70px;
-    min-height: 70px;
-}
-
+/*Adds an underline to the page that the user is currently on*/
 .selected {
     text-decoration: underline;
 }
 
+/*Page Main*/
 
-/*main*/
+/*General styles for main page*/
+
+/*Ensures main is filling width of page*/
 main {
     width: 100%;
+    /*To separate from header*/
     margin-top: 35px;
     bottom: 0;
     flex: 1 0 auto;
 }
 
-#main-area {
-    display: flex;
-    flex-direction: row;
-    position: static;
-}
+/*Styling for the main background hero images within each page*/
 
+/*Home hero image displaying bees*/
 #hero-photo-home {
     background: url(../images/bees.jpg) no-repeat center center/cover;
     height: 600px;
@@ -175,27 +157,28 @@ main {
     flex-direction: column;
 }
 
+/*Signup hero image displaying pine marten*/
 #hero-photo-signup {
     background: url(../images/pine-marten.jpg) no-repeat center center/cover;
     min-height: 600px;
     width: 100%;
-
 }
 
-#hero-photo-whatwedo {
+/*Our Goals hero image with red squirrel*/
+#hero-photo-ourgoals {
     background: url(../images/red-squirrel.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
-
 }
 
-#hero-photo-whoweare {
+/*The Team hero image displaying woodpecker*/
+#hero-photo-theteam {
     background: url(../images/woodpecker.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
-
 }
 
+/*First purple box within the hero image located top left*/
 #hero-text-home {
     background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
@@ -210,7 +193,7 @@ main {
     color: rgb(214, 214, 214);
 }
 
-
+/*Second purple box within the hero image located bottom right*/
 #hero-text-home-box2 {
     background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
@@ -226,6 +209,7 @@ main {
     letter-spacing: 2px;
 }
 
+/*Container used to hold the signup form on signup page*/
 #signup-container {
     background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
@@ -243,107 +227,81 @@ main {
 
 }
 
+/*used to contain sign up title and sign up font awesome icon*/
 #font-awesome-hero-box {
     padding-right: 15px;
+    color: rgb(214, 214, 214);
 }
 
+/*Div containing all page content below hero image and above footer */
 #content-area {
-
     width: 90%;
     margin-top: 300px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10px;
     padding-top: 80px;
-
 }
 
+/*Increase letter spacing of titles within the content area*/
 #content-area h2 {
     letter-spacing: 2px;
 }
 
-
+/*Increases searation between headers and font awesome icons*/
 h2 > i {
     padding-left: 5px;
 }
 
+/*Alter the colour of the horizontal rule between pieces of content*/
 #content-area div hr {
     color: #282828;
 }
 
-#signup-bodylink {
-    text-decoration: underline;
-}
-
-#the-scottish-wildcat {
-    display: flex;
-    flex-direction: column;
-    object-fit: cover;
-}
-
-#the-beaver {
+/*General styling for the three images of animals on the home page*/
+#the-scottish-wildcat, #the-beaver, #the-honeybee {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
     object-fit: cover;
 }
 
-#the-honeybee {
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-    object-fit: cover;
-}
-
+/*Alter margin of the h3 titles for each of the three species 
+on the ome page*/
 #species > div > h3 {
     margin-bottom: 0;
 }
 
-.team-photo {
+/*General styling for the images on the team and goals page*/
+.team-photo, #newsletter-image, #conservation-image, #charity-body-image {
     height: 400px;
     width: 100%;
     object-fit: cover;
 }
 
-#newsletter-image {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-}
-
-#conservation-image {
-    height: 400px;
-    width: 100%;
-    margin-top: 30px;
-    object-fit: cover;
-}
-
-#charity-body-image {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-}
-
+/*Separates the items in the sign up form*/
 .signup {
     margin-bottom: 10px;
 }
 
+/*Styling for the signup form to center and enlarege text*/
 #signup-form {
     text-align: center;
     font-size: large;
 }
 
-
+/*Register button styling on signup form*/
 #register-button {
     font-size: large;
     margin-bottom: 10px;
 }
 
+/*Increasing donation amount font size on signup page*/
 #donation-amount {
     font-size: x-large;
 }
 
-
+/*Styling for signup button found at bottom of each page*/
 .button-signup {
     border: 0;
     line-height: 2.5;
@@ -361,19 +319,25 @@ h2 > i {
     letter-spacing: 1px;
     margin-bottom: 40px;
 }
-  
+
+/*Styling for signup button found at bottom of each page 
+Darkens background colour upon hover*/
 .button-signup:hover {
     background-color: rgba(163, 0, 0, 1);
 }
-  
+
+/*Styling for signup button found at bottom of each page
+alters box shadow when active*/
 .button-signup:active {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+/*Removes text decoration from signup hyperlink*/
 #signup-link {
     text-decoration: none;
 }
 
+/*Alters the width of horixontal rule */
 .hr-bottom {
     width: 80%;
 }
