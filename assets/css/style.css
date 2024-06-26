@@ -397,30 +397,8 @@ footer {
 
 }
 
-
-
-/*media query for the header and small devices*/
-@media screen and (max-width: 600px) {
-    #bwc-list {
-        display: none;
-    }
-
-    #header-content {
-        width: 100%;
-    }
-
-    #nav-bar-list i {
-        display: none;
-    }
-
-    #social-media-list p {
-        display: none;
-        font-size: x-large;
-    }
-
-}
-
 @media screen and (min-width: 900px) {
+    
     #content-area {
         margin-top: 150px;
     }
@@ -442,7 +420,7 @@ footer {
     }
 
     #hero-text-home {
-        margin-top: -400px;
+        background-color: red;
         width: 30%;
     }
 
