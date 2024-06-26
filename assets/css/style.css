@@ -420,9 +420,8 @@ footer {
     }
 
     #hero-text-home {
-        background-color: red;
         width: 30%;
-        margin-top: 400px;
+        margin-top: -350px;
     }
 
     #hero-text-home-box2 {
