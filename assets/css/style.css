@@ -460,6 +460,15 @@ footer {
         width: 20%;
     }
 
+    #team-photo-1, #team-photo-2 {
+        width: 500px;
+        height: 400px;
+    }
+
+    #the-charity-text {
+        padding-left: 20px;
+    }
+
 }
 
 @media screen and (max-width: 730px) {
