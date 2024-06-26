@@ -278,18 +278,21 @@ h2 > i {
 #the-scottish-wildcat {
     display: flex;
     flex-direction: column;
+    object-fit: cover;
 }
 
 #the-beaver {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+    object-fit: cover;
 }
 
 #the-honeybee {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+    object-fit: cover;
 }
 
 #species > div > h3 {
@@ -299,22 +302,26 @@ h2 > i {
 .team-photo {
     height: 400px;
     width: 100%;
+    object-fit: cover;
 }
 
 #newsletter-image {
     height: 400px;
     width: 100%;
+    object-fit: cover;
 }
 
 #conservation-image {
     height: 400px;
     width: 100%;
     margin-top: 30px;
+    object-fit: cover;
 }
 
 #charity-body-image {
     height: 400px;
     width: 100%;
+    object-fit: cover;
 }
 
 .signup {
@@ -420,8 +427,8 @@ footer {
     }
 
     #body-image-wildcat, #body-image-honeybee, #team-photo, #conservation-image {
-        width: 600px;
-        height: 500px;
+        width: 500px;
+        height: 400px;
         margin-left: 20px;
     }    
 
@@ -432,8 +439,8 @@ footer {
     }
 
     #body-image-beaver, #team-photo, #newsletter-image {
-        width: 600px;
-        height: 500px;
+        width: 500px;
+        height: 400px;
         margin-right: 20px;
     }
 
