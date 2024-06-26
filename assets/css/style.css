@@ -337,17 +337,19 @@ alters box shadow when active*/
     text-decoration: none;
 }
 
-/*Alters the width of horixontal rule */
+/*Alters the width of horixontal rule located below signup buttom*/
 .hr-bottom {
     width: 80%;
 }
 
-/*footer*/
+/*Page Footer*/
+
+/*Colour used same as header for continuity*/
 footer {
     background-color: #58b368;
 }
 
-
+/*Styling for social media links located in footer*/
 #social-media-list {
     text-align: center;
     padding: 20px 0;
@@ -360,81 +362,99 @@ footer {
     margin-bottom: 0;
     text-decoration: none;
     font-size: xx-large;
-
 }
 
+/*Media Querys*/
+
+/*Media Query for larger screen sizes. Separates hero text boxes.
+Shortens hero box and moves images left and right*/
 @media screen and (min-width: 900px) {
     
+    /*Alters the start of the content area to reflect hero box size*/
     #content-area {
         margin-top: 150px;
     }
     
+    /*Reduces hero box size to 44px from 600px*/
     #hero-photo-home, #hero-photo-signup, #hero-photo-whatwedo, #hero-photo-whoweare {
         height: 400px
     }
 
+    /*Separates the hero box text items and displays more of the background image*/
     #hero-text-home {
         width: 30%;
         margin-top: -350px;
     }
 
+    /*Separates the hero box text items and displays more of the background image*/
     #hero-text-home-box2 {
         margin-top: -50px;
-        width: 30%;
-        
+        width: 30%;   
     }
 
+    /*Moves the below images to the right on larger screen sizes*/
     #the-scottish-wildcat, #the-honeybee, #the-team, #the-conservation {
         display: flex;
         flex-direction: row;
         margin-bottom: 50px;
     }
 
+    /*Moves the below text to the left of larger screen sizes*/
     #body-image-wildcat, #body-image-honeybee, #team-photo, #conservation-image {
         width: 500px;
         height: 400px;
         margin-left: 20px;
     }    
 
+    /*Moves the below images to the left on larger screen sizes*/
     #the-beaver, #the-charity, #the-knowledge {
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 50px;
     }
 
+    /*Moves the below text to the right on larger screen sizes*/
     #body-image-beaver, #team-photo, #newsletter-image {
         width: 500px;
         height: 400px;
         margin-right: 20px;
     }
 
+    /*Increases size of signup background photo*/
     #hero-photo-signup {
         min-height: 1000px
     }
 
+    /*Reduces width of signup container as it appeared too large on 
+    bigger screens*/
     #signup-container {
         width: 30%;
         margin-left: 35%;
         margin-right: 35%;
     }
 
+    /*Increases size of signup button on larger screen*/
     .button-signup {
         font-size: x-large;
         margin-left: 47%;
         width: 20%;
     }
 
+    /*Fixes size of meet the team photos to prevent stretching*/
     #team-photo-1, #team-photo-2 {
         width: 500px;
         height: 400px;
     }
 
+    /*Moves text away from image on meet team page*/
     #the-charity-text {
         padding-left: 20px;
     }
 
 }
 
+/*Media queys for small screen sizes removes the BWC writing
+within the header*/
 @media screen and (max-width: 730px) {
     #bwc-list {
         display: none;
