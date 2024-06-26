@@ -422,6 +422,7 @@ footer {
     #hero-text-home {
         background-color: red;
         width: 30%;
+        margin-top: 400px;
     }
 
     #hero-text-home-box2 {
@@ -468,6 +469,13 @@ footer {
         font-size: x-large;
         margin-left: 47%;
         width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    #bwc-list {
+        display: none;
     }
 
 }
