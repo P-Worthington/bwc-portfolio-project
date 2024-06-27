@@ -97,6 +97,25 @@ Following the deployment of the BWC site I noticed that CSS was not targeting th
 
 I had originally used background images within the content section of the pages. I later realised that this was not best practice as the images from more than merely the background. I therefore changed these from divs containing the background image to image elements in their own right. This also allowed me to increase the accessibility by referring to these with alt labels for screen readers or if the image does not load.
 
+## Amendments made following submission
+Issues were found with this project following first submission they are as follows:
+    Navigation difficult on smaller screen sizes
+    html validation error due to space in filepath and ID used twice
+    css code not commented enough
+    some images appear stretched
+
+### Navigation
+Navigation links altered from being contained within the header to being hidden within a box that is opened when a font awesome burger icon clicked. Header is now fixed and will remain at the top of the page at all times. The decision was made to maintain this layout even on larger screen sizes. The header was altered from containing an image of woodland to green. The navigation links are clickable and operate as intended. The page the user is currently on is indicated by an underline on the navigation bar.
+
+### html Validation
+An issue was located within one of the html documents as there was white space in a file path. This did not affect the deployed site on chrome. This has been altered and all images no longer contain white space. It was discovered that an id was used twice within the page again this did not affect the website but is not best practice. That particular id was changed for a class.
+
+### CSS Code
+style.CSS now contains comments throughout both denoting the area of the page it corresponds to and the effect that styling has. The CSS starts with more general styles and then becomes more specific.
+
+### Images stretched
+All images have been altered to <code>object-fit: cover;</code> this prevents stretching of the image at all screen sizes. All background images have their background attachment fixed and remain static when scrolling.
+
 ## References
 
 ### Media
