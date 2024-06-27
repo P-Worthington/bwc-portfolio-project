@@ -168,7 +168,7 @@ main {
 
 /*Our Goals hero image with red squirrel*/
 #hero-photo-ourgoals {
-    background: url(../images/red-squirrel.jpg) no-repeat center center/cover;
+    background: url(../images/red-squirrel.jpg) no-repeat bottom center/cover;
     height: 600px;
     width: 100%;
     background-attachment: fixed;
@@ -176,14 +176,14 @@ main {
 
 /*The Team hero image displaying woodpecker*/
 #hero-photo-theteam {
-    background: url(../images/woodpecker.jpg) no-repeat top center/cover;
+    background: url(../images/woodpecker.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
     background-attachment: fixed;
 }
 
 /*First purple box within the hero image located top left*/
-#hero-text-home {
+.hero-text-home {
     background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
     font-size: 130%;
@@ -198,7 +198,7 @@ main {
 }
 
 /*Second purple box within the hero image located bottom right*/
-#hero-text-home-box2 {
+.hero-text-home-box2 {
     background-color: rgba(69, 77, 102, 0.8);
     border-radius: 5px;
     font-size: 130%;
@@ -381,15 +381,17 @@ Shortens hero box and moves images left and right*/
     }
 
     /*Separates the hero box text items and displays more of the background image*/
-    #hero-text-home {
+    .hero-text-home {
         width: 30%;
         margin-top: -350px;
+        margin-left: 75px;
     }
 
     /*Separates the hero box text items and displays more of the background image*/
-    #hero-text-home-box2 {
+    .hero-text-home-box2 {
         margin-top: -50px;
-        width: 30%;   
+        width: 30%;
+        margin-right: 75px;
     }
 
     /*Moves the below images to the right on larger screen sizes*/
@@ -418,6 +420,11 @@ Shortens hero box and moves images left and right*/
         width: 500px;
         height: 400px;
         margin-right: 20px;
+    }
+
+    /* creates separation between text and image*/
+    #the-team-text {
+        margin-right: 10px;
     }
 
     /*Increases size of signup background photo*/
