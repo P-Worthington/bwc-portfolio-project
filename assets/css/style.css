@@ -168,7 +168,7 @@ main {
 
 /*Our Goals hero image with red squirrel*/
 #hero-photo-ourgoals {
-    background: url(../images/red-squirrel.jpg) no-repeat bottom center/cover;
+    background: url(../images/red-squirrel.jpg) no-repeat center center/cover;
     height: 600px;
     width: 100%;
     background-attachment: fixed;
