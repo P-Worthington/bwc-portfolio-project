@@ -375,8 +375,8 @@ Shortens hero box and moves images left and right*/
         margin-top: 150px;
     }
     
-    /*Reduces hero box size to 44px from 600px*/
-    #hero-photo-home, #hero-photo-signup, #hero-photo-whatwedo, #hero-photo-whoweare {
+    /*Reduces hero box size to 400px from 600px*/
+    #hero-photo-home, #hero-photo-theteam, #hero-photo-ourgoals {
         height: 400px
     }
 
