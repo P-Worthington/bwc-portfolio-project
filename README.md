@@ -4,83 +4,93 @@ This website has been created in order to promote a fictional British charity th
 
 The site is made up of 4 pages; The landing page, Meet The Team, Our Goals and Sign up. Each page being semantically linked using the same header and title area but containing different images and content. 
 
-Usability of the BWC site on different screen sizes was at the forefront of the design. Multiple media queries and the use of flex box properties allows for the BWC site to adapt to different devices. 
+Usability of the BWC site on different screen sizes was at the forefront of the design. Multiple media queries and the use of flex box properties allows for the BWC site to adapt to different devices. The BWC site was made using a mobile first approach where the initial design is built to be compatible with mobile devices and media querys are used to build upon the mobile centerd design. This is due to the significant proportion of internet traffic coming from mobile devices.
 
-As well as display on different screen types the BWC site was designed to be accessible for a variety of users by using semantic html code, aria labels, comments on links, and alternative text on images. Care has also been taken in the colours used as to not cause discomfort and aid readability. 
+As well as display on different screen types the BWC site was designed to be accessible for a variety of users by using semantic html code, aria labels, comments on links, and alternative text on images. Care has also been taken in the colours used as to not cause discomfort and aid readability. Lighthouse testing using the Chrome developers tools has been used to test the accessibility of this site. 
 
-<img src="./assets/readme-images/am-i-responsive-readme.jpg">
+<img src="assets/readme-images/bwc-responsive.jpg">
 
 ## Features
 
 ### Header
-The header area of the BWC site was created by using an image of a forest and decreasing the opacity in order to blend it into the site and not clash with the header text. The Header text displays 'BWC' on a small screen and 'BWC - British Wildlife Conservation' on larger screen sizes. 
+The header of this website uses a subtle green colouration which envokes the idea of nature. The name of the website is positioned at the left along with the simple clean logo from 'Font Awesome' (FA). This title and logo also acts as a home button returning the user to the index.html document from anywhere within the website. This position and functionality were chosen as this is what users have come to excpet from a user experience / user interface (UX, UI) perspective. 
 
-<img src="./assets/readme-images/header-readme.jpg" height="100" width="400">
+The header has been fixed to the top of the website and will continue to be present even if the user scrolls down the page. This type of functionality was chosen such that the user was able to navigate to other pages on the website without the need to scroll to the top of the page. 
+
+<img src="assets/readme-images/bwc-header-nav.jpg">
 
 ### Navigation
-Directly beneath the header there is the navigation bar. The navigation bar includes the 4 headings of: Home, Meet The Team, Our Goals, Sign Up. The order of these remains consistent on all of the pages of the site. I chose the top of the document to contain the navigation links as this is what users expect to see from all websites. 
+Within the header there is an FA 'burger' icon which when clicked will reveal a drop down menu with the four page headings. The user is informed which page they are currently on by an underline on the active webpage. A simple burger icon without the words 'menu' or 'navigation' was chosen as once again users; particularly those on mobile devices have come to expect that burger icons will reveal a navigation bar. From testing this also appeared to be the case with the BWC wesbite. 
 
-Similarly to the Header the navigation bar features dynamic changes depending on the size of the screen. On larger devices a Font Awesome icon is positioned to the right of the heading. The Font Awesome icons are used to be semantically similar to the header itself and also convey the idea of nature and conservation. 
+A simple and subtle green colour was chosen once again for the same reasons as the header but a slightly lighter shade was settled for in order to create separation between the navigation links and the header itself. 
 
-<img src="./assets/readme-images/nav-bar-readme.jpg" height="100" width="400">
+It was considerd to remove the need for the FA icon on larger screensizes and just position the navigation bar within the header. However, this idea was ruled out as the presence of the burger icon led to a significantly cleaner and less cluttered design even on larger screen sizes. Futhermore, for a UX standpoint, it is commonplace now for users to click on menu icons even on larger devices. 
 
 ### Hero Image 
-On each of the 4 pages of this site there is a hero Image designed to take up the full width of the page and a height determined by the width of the users device either 600px or 400px. Each of the pages feature a different image of British wildlife including honeybees (on the home screen), a woodpecker, a red squirrel and a pine marten. 
+On each of the 4 pages of this site there is a hero Image designed to take up the full width of the page and a height determined by the width of the users device either 600px (on smaller screens) or 400px (on larger screens). Each of the pages feature a different image of British wildlife including honeybees (on the home screen), a woodpecker, a red squirrel and a pine marten. 
 
-<img src="./assets/readme-images/hero-image-readme.jpg" height="600" width="400">
+The images themselves were chosen epecifically to highlight some of the species found in the British country side. Also, be eye cataching without destracting the user from the content within the page or the content within the two header boxes within the image iteself. 
+
+<img src="assets/readme-images/bwc-hero.jpg">
 
 ### Hero Image Content Boxes
 Within the hero image there are two boxes positioned close to the upper-right and lower-left of the hero image. The top box contains both the abbreviated and full name of the BWC. The lower box denotes which page the user is on as well as the same Font Awesome icon used in the header. 
 
-<img src="./assets/readme-images/hero-image-readme.jpg" height="600" width="400">
-
 ### Content Area
 Below the hero image there is the content area of the website. The content is separated by headings and horizontal line elements to assist the user. Within several of the sub-headings there ar photographs these are positioned below the text on small devices and to the side on larger screen sizes, alternating between left and right.
 
-<img src="./assets/readme-images/content-readme.jpg" height="600" width="400">
+When images are used within the content area they are posotioned below the relevant paragraph on smaller devices and to the side on larger devices. On larger devices the images will alternate between the left and the right. This was chosen to be ethetically pleasing and break some of the symmetry found on the page. 
+
+<img src="assets/readme-images/bwc-content.jpg">
 
 ### Sign Up Button
-At the bottom of each of the pages is a large red button that stands out significantly from the rest of the page with the text 'Sign Up' within it. Pressing this button will lead the user to the Sign Up page. 
+At the bottom of each of the pages is a large red button that stands out significantly from the rest of the page with the text 'Sign Up' within it. Pressing this button will lead the user to the Sign Up page. The signup button was styled using CSS such that it will change colour when hovered over or active.
 
-<img src="./assets/readme-images/signup-readme.jpg" height="100" width="400">
+Given the purpose of this website is to encourage the user to sign up to the newsletter it was neccessary to make it was easy for the user to signup as possible. One way to do this was by positioning the signup button at the bottom of each page and have a link to the signup page within the navigation. 
+
+The colour itsslef is significant for two reasons. Firstly, users have come to expect signup buttons or thelike to be red in colour. Also, the colour itself is not used within the page aside from a small amount on the woodpecker hero image or a somewhat orange / red on the squirrel. This further makes this buttonj stand out from the rest of the page as it does not appear within the colour scheme. 
+
+<img src="assets/readme-images/bwc-signup.jpg">
 
 ### Footer
-Within the footer area of the document there are 4 links to social media platforms arranged in a list and separated to spread the width of the screen. Each of the social media links also contains the equivalent Font Awesome icon. 
+Within the footer area of the document there are 4 links to social media platforms arranged in a list and separated to spread the width of the screen. Each of the social media links contains the equivalent Font Awesome icon. The links will open in a separate page and visually imapred users are notifed of this with the content of the link. As this site is fictional it does not have social media accounts, insteasd the user is taken to the home page of each repesctive social media account. 
 
-<img src="./assets/readme-images/footer.readme.jpg" height="100" width="400">
+<img src="assets/readme-images/bwc-footer.jpg">
 
 ## Pages
 
 ### Home
 The home page is the landing page of the site and is named index.html. It contains the familiar hero image and two text boxes. Below there are three paragraphs: Who We Are, What We Do and Species. Beneath the content of the page there is a sign up button and a footer with social media links. 
 
-<img src="./assets/readme-images/home.readme.jpg" height="600" width="400">
+
 
 ### Meet The Team
 A page with similar styling to the landing page but with an alternative image of wildlife. On this page there is content relating to the mission statement of the BWC, a paragraph relating to the team and some detail of the charity and its formation. 
 
-<img src="./assets/readme-images/meet-the-team-readme.jpg" height="600" width="400">
+
 
 ### Our Goals 
 The Our Goals page again contains the same semantic elements and positioning of content but a different photo of nature. Within the content there is detail on the conservation action taken by the BWC and how the BWC uses its newsletter to teach others about conservation. 
 
-<img src="./assets/readme-images/our-goals-readme.jpg" height="600" width="400">
+
 
 ### Sign Up 
 The signup page contains a large central form and background image. The user can reach this page by pressing the Sign Up button on the navigation bar or the bottom of each page. The boxes used within the hero image were used to create this form. 
 
-<img src="./assets/readme-images/sign-up-readme.jpg" height="600" width="400">
+
 
 ## Testing 
 
 ### Simple Testing 
-In the early development stages the BWC site was tested using the << python3 -m http.server >> commands on my own browser to establish if the site was working the way in which I intended. I varied the size of my browser window to simulate using my site on different screen sizes. 
+In the early development stages the BWC site was tested using the << python3 -m http.server >> commands on my own browser to establish if the site was working the way in which I intended. I varied the size of my browser window and user Chrome developer tools to simulate using my site on different screen sizes. Normal idustry standard breakpoints were reaserched also. 
 
 ### Validator Testing
 This project was tested using the W3C CSS tester https://jigsaw.w3.org/css-validator/validator and resulted in no errors. It was ran through the W3C HTML tester https://validator.w3.org/#validate_by_input which resulted in no errors for all pages. 
 
 ### Accessibility Testing
-The Lighthouse feature was used to assess accessibility of the BWC website. This scores accessibility, best practices and SCO. All pages of the BWC website scored green in all the above tests. A further function of Lighthouse is to score the performance of the page. The BWC website scored orange in this test. I believe due to the large image sizes used.  
+The Lighthouse feature was used to assess accessibility of the BWC website. This scores accessibility, best practices and SCO. All pages of the BWC website scored green in all the above tests. A further function of Lighthouse is to score the performance of the page. The BWC website scored orange in this test. I believe due to the large image sizes used. 
+
+Comments were also added throughout the code for myself, assessors or future developers to understand the purpose of the code.
 
 ## Deployment 
 The BWC site was deployed using GitHub using the following steps:
@@ -116,5 +126,5 @@ Content for the pages was derived from the following:
 ### Code 
 The GitHub template provided by Code Institute including a number of plugins was used as a template for this project. The template was referenced through GitHub and is clearly shown within GitHub. 
 
-
+The navigation bar code used to open and close the navigation links using a form was taken from the Code Institute 'Love Running' project and adapated for use within the BWC wesbite. 
 
